@@ -38,23 +38,23 @@ sap.ui.define(
 
 			//List of all messages
 			this._ai18nMessageList = {
-				"wrong_input"						            : "wrong_input",
+				"wrong_input"						: "wrong_input",
 				"please_fill_this_mandatory_field"	: "please_fill_this_mandatory_field",
-				"please_choose_an_entry"			      : "please_choose_an_entry"
+				"please_choose_an_entry"			: "please_choose_an_entry"
 			};
 
 			//Map messages to i18n porperties
 			this._oi18nMessagesMap = {
-				"wrong_input"						            : "validate_error_input_wrong",
+				"wrong_input"						: "validate_error_input_wrong",
 				"please_fill_this_mandatory_field"	: "validate_error_input_madatory",
-				"please_choose_an_entry"			      : "validate_error_select_madatory"
+				"please_choose_an_entry"			: "validate_error_select_madatory"
 			};
 
 			//Default messages if not i18n provided
 			this._oi18nMessagesDefault = {
-				"wrong_input"						            : "Wrong input!",
+				"wrong_input"						: "Wrong input!",
 				"please_fill_this_mandatory_field"	: "Please fill this mandatory field!",
-				"please_choose_an_entry"			      : "Please choose an entry!"
+				"please_choose_an_entry"			: "Please choose an entry!"
 			};
 
 		};
